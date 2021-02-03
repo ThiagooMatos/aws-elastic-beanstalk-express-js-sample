@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-<<<<<<< HEAD
 app.get('/', (req, res) => res.send('Esse é meu primeiro projeto utilizando AWS'));
 
 app.listen(port);
